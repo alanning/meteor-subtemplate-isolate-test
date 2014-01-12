@@ -1,0 +1,24 @@
+<head>
+  <title>sub-tests</title>
+</head>
+
+<body>
+  {{> parent}}
+</body>
+
+<template name="parent">
+  <h1>Parent</h1>
+  {{> child1}}
+  {{> child2}}
+
+  <div>
+    <button id="btnChild1">Trigger Child1 render</button>
+    <button id="btnChild2">Trigger Child2 render</button>
+  </div>
+</template>
+<template name="child1">
+  <p>{{name}}</p>
+</template>
+<template name="child2">
+  <p>{{name}}</p>
+</template>

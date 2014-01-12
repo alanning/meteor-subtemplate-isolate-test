@@ -1,0 +1,2 @@
+meteor-subtemplate-isolate-test
+===============================
